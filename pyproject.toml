@@ -1,0 +1,13 @@
+[project]
+name = "mcp-crash-course"
+version = "0.1.0"
+description = "MCP Crash Course - Kushal Banda"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+"mcp[cli]",
+"python-dotenv",
+"openai",
+"ipykernel",
+"httpx",
+]
